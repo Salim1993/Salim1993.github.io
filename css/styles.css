@@ -1,0 +1,143 @@
+#footer {
+    margin-bottom: 0
+}
+
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.options li {
+  display: inline;
+  margin: 24px;
+}
+
+.main {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  background: url("https://image.ibb.co/mmYNBv/city.jpg")
+    no-repeat
+    center;
+  background-size: cover;
+  height: 200px;
+  padding-top: 100px;
+  color: white;
+}
+
+.options {
+  position: relative;
+  top: 30%;
+  font-size: 1.5em;
+}
+
+.options li {
+  cursor: pointer;
+}
+
+.info {
+  font-family: Helvetica, Arial, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  height: auto;
+  min-height: 100px;
+  color: white;
+  overflow: auto; /* Super Hacky */
+}
+
+.AboutText {
+  
+}
+
+.AboutText img {
+  position: relative;
+  top: 1em;
+  float: left;
+  margin: 0px 1em;
+  width: 250px;
+}
+
+.AboutText p {
+  margin: 0 1em;
+}
+
+.GameText {
+  display: none;
+}
+
+.mainPic {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.GameDesc {
+  width: 75%;
+  margin: auto;
+}
+
+.Gallery {
+  display: inline-block;
+  margin: 25px 10px;
+}
+
+.Gallery img {
+  background-color: green;
+  margin: 0;
+}
+
+.Gallery p {
+  border: 1px solid white;
+  padding: 5px;
+  margin-top: 0;
+}
+
+.ProjectText {
+  display: none;
+}
+
+.links {
+  display: auto;
+  margin: auto;
+  margin-top: 4em;
+  border: 2px solid #aaacaf;
+  width: 25%;
+  padding: 0 1em 1em 1em;
+}
+
+
+.links li {
+  display: inline-block;
+}
+
+.links a {
+  font-size: 1.2em;
+  position: relative;
+  right: 1.25em;
+}
+
+.links a:link,.links a:visited {
+  padding :15px;
+  background-color: white;
+  text-decoration: none;
+  color: Black;
+}
+
+.links a:hover {
+  background-color: #5B5B5B;
+  color: white;
+}
+
+.links a:active {
+  top: 2px;
+}
